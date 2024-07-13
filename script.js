@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const driveLinkButton = document.getElementById('driveLinkButton');
 
-const googleDriveLink = "https://drive.google.com/drive/folders/1-8gz-TxZznar5nT6ohgLU6NTBREGXCs2?usp=sharing";
+const googleDriveLink = "https://drive.google.com/file/d/1RgZBw964EM4ODbC4ZRT7vRaeRRsrNN-O/view?usp=sharing";
 
 driveLinkButton.addEventListener('click', function() {
     window.open(googleDriveLink, '_blank');
